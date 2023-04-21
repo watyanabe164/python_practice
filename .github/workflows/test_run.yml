@@ -20,6 +20,7 @@ jobs:
           python-version: '3.9'
       - name: Test
         run: |
+          cd add_two_numbers
           python -m unittest test_add_two_numbers.py
       - name: Upload coverage report
         uses: codecov/codecov-action@v1
