@@ -19,7 +19,9 @@ jobs:
         with:
           python-version: '3.9'
       - name: Test
-        run: python -m unittest test_add_two_numbers.py
+        run: |
+          cd add_two_numbers
+          python -m unittest test_add_two_numbers.py
       - name: Upload coverage report
         uses: codecov/codecov-action@v1
         with:
