@@ -5,22 +5,6 @@ from add_two_numbers import add_two_numbers
 
 class TestAddTwoNumbers(unittest.TestCase):
 
-    def test_add_two_numbers(self):
-        self.assertEqual(add_two_numbers(1, 2), 3)
-        self.assertEqual(add_two_numbers(-1, -2), -3)
-        self.assertEqual(add_two_numbers(0, 0), 0)
-
-
-if __name__ == "__main__":
-    unittest.main()
-
-import unittest
-
-from add_two_numbers import add_two_numbers
-
-
-class TestAddTwoNumbers(unittest.TestCase):
-
     def test_add_two_numbers_with_valid_input(self):
         # Create two valid numbers.
         num1 = 1
