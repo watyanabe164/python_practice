@@ -1,2 +1,2 @@
 # python_practice
-collection of python examle program
+collection of python program exercises
